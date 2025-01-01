@@ -1,5 +1,6 @@
 {
   "id": "dark-sun-foundry-module-pf2e",
+  "name":"dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
   "version": "2.1.2",
   "compatibility": {
@@ -63,7 +64,7 @@
     }
   ],
 "flags": {
-   "dark-sun-pathfinder-2e": {
+   "dark-sun-foundry-module-pf2e": {
       "pf2e-homebrew": {
       "baseWeapons": {
         "puchik": "Puchik",
