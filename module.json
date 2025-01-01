@@ -1,6 +1,6 @@
 {
-  "id": "dark-sun-pathfinder-2e-new",
-  "title": "Dark Sun Pathfinder 2e new",
+  "id": "dark-sun-pathfinder-2e",
+  "title": "Dark Sun Pathfinder 2e",
   "version": "2.1.0",
   "compatibility": {
     "minimum": "11",
@@ -63,7 +63,7 @@
     }
   ],
 "flags": {
-   "dark-sun-pathfinder-2e-new": {
+   "dark-sun-pathfinder-2e": {
       "pf2e-homebrew": {
       "baseWeapons": {
         "puchik": "Puchik",
