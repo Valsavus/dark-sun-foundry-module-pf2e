@@ -1,7 +1,7 @@
 {
-  "id": "dark-sun-pathfinder-2e",
+  "id": "dark-sun-foundry-module-pf2e
   "title": "Dark Sun Pathfinder 2e",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
