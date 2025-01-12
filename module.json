@@ -2,7 +2,7 @@
   "id": "dark-sun-foundry-module-pf2e",
   "name":"dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "2.1.2",
+  "version": "2.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
@@ -18,7 +18,7 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.1.2.zip",
+  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.1.1.zip",
   "description": "Ancestry, Heritage, Feats and more for Dark Sun",
   "authors": [
     {
