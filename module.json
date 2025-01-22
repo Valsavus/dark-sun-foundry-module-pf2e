@@ -1,8 +1,7 @@
 {
-  "id": "dark-sun-foundry-module-pf2e",
-  "name":"dark-sun-foundry-module-pf2e",
+  "id": "dark-sun-pathfinder-2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "2.1.2",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
@@ -17,8 +16,6 @@
       }
     ]
   },
-  "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.1.3.zip",
   "description": "Ancestry, Heritage, Feats and more for Dark Sun",
   "authors": [
     {
@@ -62,165 +59,5 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ],
-"flags": {
-   "dark-sun-foundry-module-pf2e": {
-      "pf2e-homebrew": {
-      "baseWeapons": {
-        "puchik": "Puchik",
-        "quabone": "Quabone",
-	"singing-sticks": "Singing Sticks",
-	"talid": "Talid",
-	"widows-knife": "Widows's Knife",
-	"alak": "Alak",
-	"datchi-club": "Datchi Club",
-	"forearm-axe": "Forearm Axe",
-	"gouge": "Gouge",
-	"impaler": "Impaler",
-	"bards-friend": "Bard's Friend",
-	"carrikal": "Carrikal",
-	"bards-garrote": "Bard's Garrote",
-	"handfork": "Handfork",
-	"heartpick": "Heartpick",
-	"Ko": "Ko•",
-	"lotulis": "Lotulis",
-	"small-macuahuitl": "Small Macuahuitl",
-	"great-macuahuitl": "Great Macuahuitl",
-	"masters-whip": "Master's Whip",
-	"mekillot-sap": "Mekillot Sap",
-	"skyhammer": "Skyhammer",
-	"slodak": "Slodak",
-	"doubletipped-spear": "Double-tipped Spear",
-	"thanak": "Thanak",
-	"tkaesali": "Tkaesali",
-	"weighted-pike": "Weighted Pike",
-	"wrist-razor": "Wrist Razor",
-	"alhulak": "Alhulak",
-	"cahulaks": "Cahulaks",
-	"chatkcha": "Chatkcha",
-	"crusher": "Crusher",
-	"dragons-paw": "Dragon's Paw",
-	"gythka": "Gythka",
-	"kyorkcha": "Kyorkcha",
-	"lajav": "Lajav",
-	"trikal": "trikal",
-	"pelota": "Pelota",
-	"hinged-pelota": "Hinged Pelota",
-	"dejada": "Dejada",
-	"splashbow": "Splashbow"
-      },
-	"damageTypes": {
-	  "dwarven-steel": {
-		"label": "Dwarven Steel",
-		"category": "physical"
-		}
-	},
-        "creatureTraits": {
-        "dray": "Dray",
-        "aarakocra": "Aarakocra",
-	"half-Elf": "Half Elf",
-	"mul": "Mul",
-	"tari": "Tari",
-	"kreen": "Kreen",
-	"graytouched": "Gray-Touched",
-	"shadowtouched": "Shadow-Touched",
-	"psychic-warrior": "Psychic Warrior",
-	"rain": "Rain",
-	"silt": "Silt",
-	"sun": "Sun",
-	"magma": "Magma",
-	"avangion": "Avangion",
-	"belgoi": "Belgoi",
-	"anakore": "Anakore",
-	"fael": "Fael",
-	"gith": "Gith",
-	"hejkin": "Hej-Kin",
-	"jozhal": "Jozhal",
-	"kaisharga": "Kaisharga",
-	"krag": "Krag",
-	"kragling": "Kragling",
-	"meorty": "Meorty",
-	"morg": "Morg",
-	"nikaal": "Nikaal",
-	"pterran": "Pterran",
-	"pyreen": "Pyreen",
-	"raaig": "Raaig",
-	"reggelid": "Reggelid",
-	"ruvoka": "Ruvoka",
-	"sand-bride": "Sand Bride",
-	"scrab": "Scrab",
-	"silt-runner": "Silt Runner",
-	"slig": "Slig",
-	"ssurran": "Ssurran",
-	"tchowb": "T'Chowb",
-	"tarek": "Tarek",
-	"thrax": "Thrax",
-	"thrikreen": "Thri-Kreen",
-	"trin": "Trin",
-	"tliz": "T'Liz",
-	"villichi": "Villichi",
-	"ziktrinak": "Zik-Trin'Ak",
-	"defiler": "Defiler",
-	"ziktrinta": "Zik-Trin'Ta"	
-      },
-      "featTraits": {
-        "giant": "Giant",
-        "psychic-warrior": "Psychic Warrior",
-	"aarakocra": "Aarakocra",
-	"tari": "Tari",
-	"dray": "Dray",
-	"halfelf": "Half-Elf",
-	"mul": "Mul",
-	"kreen": "Kreen",
-	"graytouched": "Gray-Touched",
-	"shadowtouched": "Shadow-Touched",
-	"wild-talent": "Wild Talent",
-	"defiler": "Defiler",
-	"avangion": "Avangion",
-	"dragon": "Dragon",
-	"rain": "Rain",
-	"silt": "Silt",
-	"sun": "Sun",
-	"magma": "Magma"
-      },
-      "spellTraits": {
-        "kreen": "Kreen",
-	"rain": "Rain",
-	"silt": "Silt",
-	"sun": "Sun",
-	"magma": "Magma",
-	"psychic-warrior": "Psychic Warrior"
-      },
-      "weaponTraits": {
-	"draji": "Draji",
-	"gladiator": "Gladiator",
-	"tarek": "Tarek",
-	"kreen": "Kreen",
-	"inferior": "Inferior",
-	"flaw": "Flaw",
-	"lightweight": "Lightweight",
-	"weighty": "Weighty",
-	"dwarvenSteel": "Dwarven Steel"
-      },	
-      "languages": {
-	"aarakocra": "Aarakocra",
-        "belgoi": "Belgoi",
-	"braxat": "Braxat",
-	"bvanen": "Bvanen",
-	"drik": "Drik",
-	"anakore": "Anakore",
-	"feylaar": "Feylaar",
-	"gaj": "Gaj",
-	"gith": "Gith",
-	"ancient-common": "Ancient Common",
-	"kreen": "Kreen",
-	"reggelid": "Reggelid",
-	"scrab": "Scrab",
-	"slig": "Slig",
-	"moonbeast": "Moonbeast",
-	"tarek": "Tarek"
-      }	
-   }
-}
-}
+  ]
 }

@@ -1,8 +1,17 @@
-2024/12/21-00:30:47.883592 fe88857af000 Recovering log #648
-2024/12/21-00:30:47.889763 fe88857af000 Delete type=3 #646
-2024/12/21-00:30:47.889792 fe88857af000 Delete type=0 #648
-2024/12/30-15:30:58.689339 fe8662fe5000 Level-0 table #655: started
-2024/12/30-15:30:58.690306 fe8662fe5000 Level-0 table #655: 0 bytes OK
-2024/12/30-15:30:58.692898 fe8662fe5000 Delete type=0 #653
-2024/12/30-15:30:58.701545 fe8662fe5000 Manual compaction at level-0 from '!folders!07rZC8mJLVDVXWSu' @ 72057594037927935 : 1 .. '!items!zzfrwRqJ2Q8WeycY' @ 0 : 0; will stop at (end)
-2024/12/30-15:30:58.701599 fe8662fe5000 Manual compaction at level-1 from '!folders!07rZC8mJLVDVXWSu' @ 72057594037927935 : 1 .. '!items!zzfrwRqJ2Q8WeycY' @ 0 : 0; will stop at (end)
+2025/01/21-19:42:50.809754 f2bde960f000 Recovering log #730
+2025/01/21-19:42:50.815549 f2bde960f000 Delete type=3 #728
+2025/01/21-19:42:50.815576 f2bde960f000 Delete type=0 #730
+2025/01/22-13:32:35.871957 f2bdcaa0f000 Level-0 table #735: started
+2025/01/22-13:32:35.876592 f2bdcaa0f000 Level-0 table #735: 166490 bytes OK
+2025/01/22-13:32:35.878744 f2bdcaa0f000 Delete type=0 #733
+2025/01/22-13:32:35.882425 f2bdcaa0f000 Manual compaction at level-0 from '!folders!07rZC8mJLVDVXWSu' @ 72057594037927935 : 1 .. '!items!zzfrwRqJ2Q8WeycY' @ 0 : 0; will stop at (end)
+2025/01/22-13:32:35.887665 f2bdcaa0f000 Manual compaction at level-1 from '!folders!07rZC8mJLVDVXWSu' @ 72057594037927935 : 1 .. '!items!zzfrwRqJ2Q8WeycY' @ 0 : 0; will stop at '!items!zv29ocMNCH5n960u' @ 61882 : 1
+2025/01/22-13:32:35.887690 f2bdcaa0f000 Compacting 1@1 + 2@2 files
+2025/01/22-13:32:35.918646 f2bdcaa0f000 Generated table #736@1: 2238 keys, 2127783 bytes
+2025/01/22-13:32:35.948144 f2bdcaa0f000 Generated table #737@1: 2026 keys, 2060475 bytes
+2025/01/22-13:32:35.948160 f2bdcaa0f000 Compacted 1@1 + 2@2 files => 4188258 bytes
+2025/01/22-13:32:35.950558 f2bdcaa0f000 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/01/22-13:32:35.950891 f2bdcaa0f000 Delete type=2 #727
+2025/01/22-13:32:35.951301 f2bdcaa0f000 Delete type=2 #735
+2025/01/22-13:32:35.951479 f2bdcaa0f000 Delete type=2 #726
+2025/01/22-13:32:35.952286 f2bdcaa0f000 Manual compaction at level-1 from '!items!zv29ocMNCH5n960u' @ 61882 : 1 .. '!items!zzfrwRqJ2Q8WeycY' @ 0 : 0; will stop at (end)
