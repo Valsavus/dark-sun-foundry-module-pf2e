@@ -1,7 +1,7 @@
 {
   "id": "dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -24,7 +24,7 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.5.0.zip",
+  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.6.0.zip",
   "description": "<p>Ancestry, Heritage, Feats and more for Dark Sun</p>",
   "authors": [
     {
@@ -119,11 +119,17 @@
           "dwarven-steel": {
             "label": "Dwarven Steel",
             "category": "physical"
-          }
-        },
+	},
         "creatureTraits": {
           "dray": "Dray",
           "aarakocra": "Aarakocra",
+          "athasian-dwarf": "Athasian Dwarf",
+          "athasian-elf": "Athasian Elf",
+	  "athasian-human": "Athasian Human",
+	  "athasian-halfling": "Athasian Halfling",
+	  "athasian-fleshwarp": "Athasian Fleshwarp",
+	  "wild-talent": "Wild Talent",
+	  "athasian-lizardfolk": "Athasian Lizardfolk",
           "half-Elf": "Half Elf",
           "mul": "Mul",
           "tari": "Tari",
@@ -173,6 +179,13 @@
           "giant": "Giant",
           "psychic-warrior": "Psychic Warrior",
           "aarakocra": "Aarakocra",
+          "athasian-dwarf": "Athasian Dwarf",
+          "athasian-elf": "Athasian Elf",
+	  "athasian-human": "Athasian Human",
+	  "athasian-halfling": "Athasian Halfling",
+	  "athasian-fleshwarp": "Athasian Fleshwarp",
+	  "wild-talent": "Wild Talent",
+	  "athasian-lizardfolk": "Athasian Lizardfolk",
           "tari": "Tari",
           "dray": "Dray",
           "halfelf": "Half-Elf",
@@ -199,7 +212,11 @@
         },
         "weaponTraits": {
           "draji": "Draji",
+	  "dasl": "Dasl",
+	  "agafari": "Agafari",
           "gladiator": "Gladiator",
+	  "double": "Double",
+	  "iron": "Iron",
           "tarek": "Tarek",
           "kreen": "Kreen",
           "inferior": "Inferior",
@@ -236,4 +253,5 @@
       }
     }
   }
+}
 }
