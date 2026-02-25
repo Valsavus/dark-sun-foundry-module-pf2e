@@ -1,7 +1,7 @@
 {
   "id": "dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "2.6.0",
+  "version": "2.6.2",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -24,7 +24,7 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.6.0.zip",
+  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/2.6.2.zip",
   "description": "<p>Ancestry, Heritage, Feats and more for Dark Sun</p>",
   "authors": [
     {
@@ -190,7 +190,7 @@
 	  "athasian-lizardfolk": "Athasian Lizardfolk",
           "tari": "Tari",
           "dray": "Dray",
-          "half-elf": "Half-Elf",
+          "halfelf": "Half-Elf",
           "mul": "Mul",
           "kreen": "Kreen",
           "graytouched": "Gray-Touched",
