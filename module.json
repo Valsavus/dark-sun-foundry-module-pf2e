@@ -1,7 +1,7 @@
 {
   "id": "dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -24,7 +24,7 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/3.0.1.zip",
+  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/3.0.2.zip",
   "description": "<p>Ancestry, Heritage, Feats and more for Dark Sun</p>",
   "authors": [
     {
@@ -120,7 +120,7 @@
           "dwarven-steel": {
             "label": "Dwarven Steel",
             "category": "physical"
-		},
+		}
 	},
         "creatureTraits": {
           "dray": "DSPF2E.Trait.Dray",
