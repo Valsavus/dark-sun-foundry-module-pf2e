@@ -1,5 +1,14 @@
 {
-    "PF2E": {
+    "DSPF2E": {
+        "Actions": {
+            "Defiling": {
+                "Description": "<p>Prior to casting a spell, you can strip the life energy of the land. You defile a @Template[type:emanation|distance:5] of defilement in Forest or Verdant areas or @Template[type:emanation|distance:10] in barren terrain. Plants in the defiled area die and turn to ash. The terrain changes to desolate and can no longer support defiling. Any creature in the area of the defiling must make a @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|basic:true] vs your spell casting DC or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. On a critical failure they become sickened 2.<br><br>The act of defiling empowers you with magic. If your next action is to cast a cantrip or a spell, reduce the number of actions to cast it by 1 (minimum 1 action).<br><br>If your next action is to cast a focus spell, there is no focus cost for casting the spell.</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Critical Failure</strong> You become sickened 2",
+                    "Title": "Defiling"
+            		}           
+        	}
+	},
        "WeaponPropertyRune": {
 		"corrode": {
                 	"Name": "Corrode"
@@ -25,18 +34,7 @@
 		"jolt-greater": {
                 	"Name": "Greater Jolt"
             		}		
-    		}
-	},
-    "DSPF2E": {
-        "Actions": {
-            "Defiling": {
-                "Description": "<p>Prior to casting a spell, you can strip the life energy of the land. You defile a @Template[type:emanation|distance:5] of defilement in Forest or Verdant areas or @Template[type:emanation|distance:10] in barren terrain. Plants in the defiled area die and turn to ash. The terrain changes to desolate and can no longer support defiling. Any creature in the area of the defiling must make a @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|basic:true] vs your spell casting DC or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. On a critical failure they become sickened 2.<br><br>The act of defiling empowers you with magic. If your next action is to cast a cantrip or a spell, reduce the number of actions to cast it by 1 (minimum 1 action).<br><br>If your next action is to cast a focus spell, there is no focus cost for casting the spell.</p>",
-                "Notes": {
-                    "criticalFailure": "<strong>Critical Failure</strong> You become sickened 2",
-                    "Title": "Defiling"
-            		}           
-        	}
-	},
+    		},
         "Damage": {
             "Base": "Base",
                 "Type": {
@@ -110,7 +108,7 @@
           "Nibenese": "Nibenese",
           "Raamish": "Raamish",
           "Tyrian": "Tyrian",
-          "Urkite": "Urikite",
+          "Urikite": "Urikite",
           "Belgoi": "Belgoi",
           "Braxat": "Braxat",
           "Bvanen": "Bvanen",
