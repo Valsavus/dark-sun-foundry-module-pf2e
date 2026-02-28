@@ -3,29 +3,30 @@
        "WeaponPropertyRune": {
 		"corrode": {
                 	"Name": "Corrode"
-            },
+            		},
 		"corrode-greater": {
                 	"Name": "Greater Corrode"
-            },
+            		},
 		"flame": {
                 	"Name": "Flame"
-            },
+            		},
 		"flame-greater": {
                 	"Name": "Greater Flame"
-            },
+            		},
 		"ice": {
                 	"Name": "Ice"
-            },
+            		},
 		"ice-greater": {
                 	"Name": "Greater Ice"
-            },
+            		},
 		"jolt": {
                 	"Name": "Jolt"
-            },
+            		},
 		"jolt-greater": {
                 	"Name": "Greater Jolt"
-            }		
-    },
+            		}		
+    		}
+	},
     "DSPF2E": {
         "Actions": {
             "Defiling": {
@@ -33,8 +34,9 @@
                 "Notes": {
                     "criticalFailure": "<strong>Critical Failure</strong> You become sickened 2",
                     "Title": "Defiling"
-            }           
-        },
+            		}           
+        	}
+	},
         "Damage": {
             "Base": "Base",
                 "Type": {
@@ -46,7 +48,8 @@
                 "Base": {
                     "pelota": "Pelota",
                     "hinged-pelota": "Hinged Pelota"
-                },
+                	}
+		},
         "PreciousMaterialDwarvenSteel": "Dwarven Steel",
         "PreciousMaterialDwarvenSteelDescription": "Mined from rocks that fell from the heavens, dwarf steel is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge.",
         "PreciousMaterialAgafariWood": "Agafari Wood",
@@ -204,7 +207,4 @@
 	    "Agafari": "A tree of the Crescent Forest, agafari wood is extremely hard aswell as very lightweight."
       }
     }
-}
-}
-}
 }
