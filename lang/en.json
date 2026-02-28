@@ -1,0 +1,210 @@
+{
+    "PF2E": {
+       "WeaponPropertyRune": {
+		"corrode": {
+                	"Name": "Corrode"
+            },
+		"corrode-greater": {
+                	"Name": "Greater Corrode"
+            },
+		"flame": {
+                	"Name": "Flame"
+            },
+		"flame-greater": {
+                	"Name": "Greater Flame"
+            },
+		"ice": {
+                	"Name": "Ice"
+            },
+		"ice-greater": {
+                	"Name": "Greater Ice"
+            },
+		"jolt": {
+                	"Name": "Jolt"
+            },
+		"jolt-greater": {
+                	"Name": "Greater Jolt"
+            }		
+    },
+    "DSPF2E": {
+        "Actions": {
+            "Defiling": {
+                "Description": "<p>Prior to casting a spell, you can strip the life energy of the land. You defile a @Template[type:emanation|distance:5] of defilement in Forest or Verdant areas or @Template[type:emanation|distance:10] in barren terrain. Plants in the defiled area die and turn to ash. The terrain changes to desolate and can no longer support defiling. Any creature in the area of the defiling must make a @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|basic:true] vs your spell casting DC or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. On a critical failure they become sickened 2.<br><br>The act of defiling empowers you with magic. If your next action is to cast a cantrip or a spell, reduce the number of actions to cast it by 1 (minimum 1 action).<br><br>If your next action is to cast a focus spell, there is no focus cost for casting the spell.</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Critical Failure</strong> You become sickened 2",
+                    "Title": "Defiling"
+            }           
+        },
+        "Damage": {
+            "Base": "Base",
+                "Type": {
+                    "iron": "iron",
+		    "dwarven-steel": "dwarven steel"
+			}
+		},
+            "Ammo": {
+                "Base": {
+                    "pelota": "Pelota",
+                    "hinged-pelota": "Hinged Pelota"
+                },
+        "PreciousMaterialDwarvenSteel": "Dwarven Steel",
+        "PreciousMaterialDwarvenSteelDescription": "Mined from rocks that fell from the heavens, dwarf steel is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge.",
+        "PreciousMaterialAgafariWood": "Agafari Wood",
+        "PreciousMaterialAgafariDescription": "A tree of the Crescent Forest, agafari wood is extremely hard aswell as very lightweight. The wood is used to make weapons and shields and is a major trade good of Nibenay. The tree's bark has a bluish tint. At the top of the tree, which can be over 100 feet tall, the boughs spread out in great, sweeping fans. The enormous heart-shaped leaves are the color of turquoise. These large trees can actually be hollowed out without killing the tree. An agafari item’s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of agafari is based on the item’s normal Bulk, not its reduced Bulk for being made of agafari, but reduce the Bulk before making any further Bulk adjustments for the size of the item.",
+        "PreciousMaterialDasl": "Dasl",
+        "PreciousMaterialDaslDescription": "Dasl is a special kind of crystalline material created by thri-kreen and often used to manufacture their weapons. An item made from dasl is treated as if it was made from iron and is not considered to be made from inferior materials. However, for purposes of harming creatures with damage reduction, a dasl weapon is not treated as being made from metal.",
+        "PreciousMaterialIron": "Iron",
+        "PreciousMaterialIronDescription": "Athas is metal scarce. Most metal items have been recovered from ancient ruins. Currently the main iron mine is located in Tyr with iron being shipped across the tablelands.",
+        "BaseWeapon": {
+          "Puchik": "Puchik",
+          "Quabone": "Quabone",
+          "SingingSticks": "Singing Sticks",
+          "Talid": "Talid",
+          "Widowsknife": "Widows's Knife",
+          "Alak": "Alak",
+          "DatchiClub": "Datchi Club",
+          "ForearmAxe": "Forearm Axe",
+          "Gouge": "Gouge",
+          "Impaler": "Impaler",
+          "BardsFriend": "Bard's Friend",
+          "Carrikal": "Carrikal",
+          "BardsGarrote": "Bard's Garrote",
+          "Handfork": "Handfork",
+          "Heartpick": "Heartpick",
+          "Ko": "Ko•",
+          "Lotulis": "Lotulis",
+          "SmallMacuahuitl": "Small Macuahuitl",
+	  "Macuahuitl": "Macuahuitl",
+          "GreatMacuahuitl": "Great Macuahuitl",
+          "MastersWhip": "Master's Whip",
+          "MekillotSap": "Mekillot Sap",
+          "Skyhammer": "Skyhammer",
+          "Slodak": "Slodak",
+          "DoubletippedSpear": "Double-tipped Spear",
+          "Thanak": "Thanak",
+          "Tkaesali": "Tkaesali",
+          "WeightedPike": "Weighted Pike",
+          "WristRazor": "Wrist Razor",
+          "Alhulak": "Alhulak",
+          "Cahulaks": "Cahulaks",
+          "Chatkcha": "Chatkcha",
+          "Crusher": "Crusher",
+          "DragonsPaw": "Dragon's Paw",
+          "Gythka": "Gythka",
+          "Kyorkcha": "Kyorkcha",
+          "Lajav": "Lajav",
+          "Trikal": "trikal",
+          "Pelota": "Pelota",
+          "HingedPelota": "Hinged Pelota",
+          "Dejada": "Dejada",
+          "Splashbow": "Splashbow"
+        },
+        "Language": {
+          "Aarakocra": "Aarakocra",
+          "Balican": "Balican",
+          "Draji": "Draji",
+          "Gulgan": "Gulgan",
+          "Nibenese": "Nibenese",
+          "Raamish": "Raamish",
+          "Tyrian": "Tyrian",
+          "Urkite": "Urikite",
+          "Belgoi": "Belgoi",
+          "Braxat": "Braxat",
+          "Bvanen": "Bvanen",
+          "Drik": "Drik",
+          "Anakore": "Anakore",
+          "Feylaar": "Feylaar",
+          "Gaj": "Gaj",
+          "Gith": "Gith",
+          "AncientCommon": "AncientCommon",
+          "kreen": "Kreen",
+          "reggelid": "Reggelid",
+          "scrab": "Scrab",
+          "slig": "Slig",
+          "moonbeast": "Moonbeast",
+          "tarek": "Tarek"
+        },
+        "Trait": {
+          "Dray": "Dray",
+          "Aarakocra": "Aarakocra",
+          "AthasianDwarf": "Athasian Dwarf",
+          "AthasianElf": "Athasian Elf",
+	  "AthasianHuman": "Athasian Human",
+	  "AthasianHalfling": "thasian Halfling",
+	  "AthasianFleshwarp": "Athasian Fleshwarp",
+	  "WildTalent": "Wild Talent",
+	  "AthasianLizardfolk": "Athasian Lizardfolk",
+          "HalfElf": "Half-Elf",
+          "Mul": "Mul",
+          "Tari": "Tari",
+          "Kreen": "Kreen",
+          "GrayTouched": "Gray-Touched",
+          "ShadowTouched": "Shadow-Touched",
+          "PsychicWarrior": "Psychic Warrior",
+          "Rain": "Rain",          
+	  "Silt": "Silt",
+          "Sun": "Sun",
+          "Magma": "Magma",
+          "Avangion": "Avangion",
+          "Belgoi": "Belgoi",
+          "Anakore": "Anakore",
+          "Fael": "Fael",
+          "Gith": "Gith",
+          "Hejkin": "Hej-Kin",
+          "Jozhal": "Jozhal",
+          "Kaisharga": "Kaisharga",
+          "Krag": "Krag",
+          "Kragling": "Kragling",
+          "Meorty": "Meorty",
+          "Morg": "Morg",
+          "Nikaal": "Nikaal",
+          "Pterran": "Pterran",
+          "Pyreen": "Pyreen",
+          "Raaig": "Raaig",
+          "Reggelid": "Reggelid",
+          "Ruvoka": "Ruvoka",
+          "SandBride": "Sand Bride",
+          "Scrab": "Scrab",
+          "SiltRunner": "Silt Runner",
+          "Slig": "Slig",
+          "Ssurran": "Ssurran",
+          "TChowb": "T'Chowb",
+          "tTarek": "Tarek",
+          "Thrax": "Thrax",
+          "ThriKreen": "Thri-Kreen",
+          "Trin": "Trin",
+          "TLiz": "T'Liz",
+          "Villichi": "Villichi",
+          "ZikTrinAk": "Zik-Trin'Ak",
+          "ZikTrinTa": "Zik-Trin'Ta",
+          "Giant": "Giant",
+          "Defiler": "Defiler",
+          "Dragon": "Dragon",
+          "Draji": "Draji",
+	  "Dasl": "Dasl",
+	  "Agafari": "Agafari",
+          "Gladiator": "Gladiator",
+	  "Double": "Double",
+	  "Iron": "Iron",
+          "Tarek": "Tarek",
+          "Inferior": "Inferior",
+          "Flaw": "Flaw",
+          "Lightweight": "Lightweight",
+          "Weighty": "Weighty",
+          "DwarvenSteel": "Dwarven Steel"
+        },
+        "TraitDescription": {
+            "Defiler": "Arcane casters that leech spell energy from the land are tainted body and soul.",
+            "WildTalent": "All ancestries in dark sun have natural psychic talent. They can take additional feats to enhance thier occult connections.",
+	    "Double": "These weapons count as wielding 2 one-handed weapons for feats and abilities that require two weapons.",
+	    "Flaw": "A player can choose to reroll a critical miss or on a critical hit can choose to do max damage, if a player chooses this effect the weapon takes 1d6 damage and reduces max hitpoints by 1.",
+	    "Inferior": "Weapons constructed from inferior materials, such as bone longsword or an axe with a head made from stone, suffer a –1 penalty to attack and damage rolls.",
+	    "Lightweight": "These weapon’s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). This trait does not apply to bows or clubs.",
+	    "Weighty": "These weapon's Bulk is increased by 1 (or to 1 Bulk if its normal Bulk is L).",
+	    "Agafari": "A tree of the Crescent Forest, agafari wood is extremely hard aswell as very lightweight."
+      }
+    }
+}
+}
+}
+}
