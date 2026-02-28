@@ -1,7 +1,7 @@
 {
   "id": "dark-sun-foundry-module-pf2e",
   "title": "Dark Sun Pathfinder 2e",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -24,7 +24,7 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Valsavus/dark-sun-foundry-module-pf2e/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/3.0.2.zip",
+  "download": "https://github.com/Valsavus/dark-sun-foundry-module-pf2e/archive/refs/tags/3.0.3.zip",
   "description": "<p>Ancestry, Heritage, Feats and more for Dark Sun</p>",
   "authors": [
     {
@@ -225,7 +225,7 @@
           "weighty": "DSPF2E.Trait.Weighty",
           "dwarvenSteel": "DSPF2E.Trait.DwarvenSteel"
         },
-        "Languages": {
+        "languages": {
           "aarakocra": "DSPF2E.Language.Aarakocra",
           "balican": "DSPF2E.Language.Balican",
           "draji": "DSPF2E.Language.Draji",
