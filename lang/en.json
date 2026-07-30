@@ -13,25 +13,25 @@
 		"corrode": {
                 	"Name": "Corrode"
             		},
-		"corrode-greater": {
+		"greaterCorrode": {
                 	"Name": "Greater Corrode"
             		},
 		"flame": {
                 	"Name": "Flame"
             		},
-		"flame-greater": {
+		"greaterFlame": {
                 	"Name": "Greater Flame"
             		},
 		"ice": {
                 	"Name": "Ice"
             		},
-		"ice-greater": {
+		"greaterIce": {
                 	"Name": "Greater Ice"
             		},
 		"jolt": {
                 	"Name": "Jolt"
             		},
-		"jolt-greater": {
+		"greaterJolt": {
                 	"Name": "Greater Jolt"
             		}		
     		},
